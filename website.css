@@ -1,0 +1,74 @@
+
+body{background-color:#fcf8e8;
+  image-orientation:auto;
+
+  text-align: center;
+  font-family:'Titillium Web', sans-serif;
+}
+h1
+{ color: #5eaaa8;
+  margin: 50px auto 0 auto ;
+  padding: 30px;
+  font-size: 4.5em;
+
+  }
+  h2{ color: #5eaaa8;
+    margin: auto 0 30px 0;
+    font-size: 3em;
+
+  }
+  h3{ font-size: 2em;}
+  p{ font-size:1.7em }
+
+  hr{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color:grey;
+    border-width: 6px;
+    width: 4%;}
+.mountain{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+
+  background-color: #fcf8e8;
+
+}
+.top-cloud{ position: absolute;
+  bottom: 500px;
+  left: 350px;
+  top: 150px;
+}
+.second-cloud{
+  position: absolute;
+    right: 350px;
+    bottom: 450px;
+
+}
+imaButton label {
+  background: #3498db;
+
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.imaButton label:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.imaButton label:active {
+  color:#CCC;
+}
+
+.imaButton input {display:none;}
+
+.imaButton input:checked ~ label {pointer-events:none;} 
